@@ -1,0 +1,35 @@
+<!--
+ * @Date: 2022-02-11 12:54:16
+ * @LastEditors: jimouspeng
+ * @Description: 描述文件内容
+ * @LastEditTime: 2022-02-11 13:41:41
+ * @FilePath: \nuxtjs\1.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            let a = () => 444;
+            console.log(typeof a ,"aLi");
+        console.log(Object.prototype.toString.call('1')); // [object String]
+        console.log(Object.prototype.toString.call(1)); // [object Number]
+        console.log(Object.prototype.toString.call(true)); // [object Boolean]
+        console.log(Object.prototype.toString.call(Symbol())); // [object Symbol]
+        console.log(Object.prototype.toString.call(undefined)); // [object Undefined]
+        console.log(Object.prototype.toString.call(null)); // [object Null]
+        console.log(Object.prototype.toString.call(5n)); // [object BigInt]
+        console.log(Object.prototype.toString.call({})); // [object Object]
+        console.log(Object.prototype.toString.call([])); // [object Array]
+        console.log(Object.prototype.toString.call(new Function())); // [object Function]
+        console.log(Object.prototype.toString.call(new Date())); // [object Date]
+        console.log(Object.prototype.toString.call(/jimous/)); // [object RegExp]
+
+        </script>
+    </body>
+</html>
